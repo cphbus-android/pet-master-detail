@@ -9,6 +9,39 @@ data class Person(
         val pets: MutableList<Pet> = mutableListOf()
         )
 
+/*
+    : Map<String, Any?> {
+    override val entries: Set<Map.Entry<String, Any?>>
+        get() = throw UnsupportedOperationException()
+    override val keys: Set<String>
+        get() = throw UnsupportedOperationException()
+    override val size: Int
+        get() = throw UnsupportedOperationException()
+    override val values: Collection<Any?>
+        get() = throw UnsupportedOperationException()
+
+    override fun containsKey(key: String): Boolean {
+        throw UnsupportedOperationException("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+    override fun containsValue(value: Any?): Boolean {
+        throw UnsupportedOperationException("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+    override fun get(key: String): Any? {
+        return when (key) {
+            "firstName" -> firstName
+            "lastName" -> lastName
+            "email" -> email
+            else -> ""
+            }
+    }
+
+    override fun isEmpty() = false
+
+    }
+*/
+
 object data {
     val people: MutableList<Person> = mutableListOf()
 
