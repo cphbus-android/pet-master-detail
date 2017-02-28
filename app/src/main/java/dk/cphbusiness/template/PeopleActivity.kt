@@ -1,6 +1,5 @@
 package dk.cphbusiness.template
 
-import android.app.Activity
 import android.app.ListActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
@@ -14,9 +13,11 @@ class PeopleActivity : ListActivity() {
         setContentView(R.layout.activity_people)
         listAdapter = ArrayAdapter<Person>(
                 this,
-                android.R.layout.simple_list_item_single_choice,
+                android.R.layout.simple_list_item_1,
                 data.people
                 )
         }
+
+
 
     }
