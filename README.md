@@ -36,3 +36,6 @@ object data {
 
     }
 ```
+
+The `object` is an instance, so we can use it as a singleton.
+
