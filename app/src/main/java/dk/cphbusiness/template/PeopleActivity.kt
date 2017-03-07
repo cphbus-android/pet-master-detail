@@ -8,6 +8,7 @@ import android.widget.ListView
 import android.widget.SimpleAdapter
 import dk.cphbusiness.template.model.Person
 import dk.cphbusiness.template.model.data
+import dk.cphbusiness.template.model.til
 import kotlinx.android.synthetic.main.activity_people.*
 import org.jetbrains.anko.intentFor
 import org.jetbrains.anko.onClick

@@ -1,5 +1,7 @@
 package dk.cphbusiness.template.model
 
+import android.content.Context
+
 data class Pet(val name: String, var age: Int)
 
 data class Person(
@@ -64,3 +66,22 @@ object data {
         }
 
     }
+
+infix fun String.til(value: Any?) = Pair(this, value)
+
+val pair1 = "xyz".til(56)
+val pair2 = "xyz" til 56
+
+
+
+
+
+
+
+
+
+
+
+
+
+

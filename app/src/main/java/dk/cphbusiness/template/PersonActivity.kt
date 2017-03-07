@@ -38,7 +38,10 @@ class PersonActivity : Activity() {
             editFirstName.setText(person.firstName)
             editLastName.setText(person.lastName)
             editEmail.setText(person.email)
+            listPets.adapter = PetAdapter(this, person.pets)
             }
+
+
         }
 
     }
